@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дессертория - меню</title>
+</head>
+<body>
+  <header>
+    <h1>Дессертория - меню</h1>
+    <p>ЛетоЛето, аквапарк</p>
+  </header>
+
+  <main>
+    <section>
+      <label>
+        Поиск:
+        <input type="search" id="search" placeholder="Название, объём, категория">
+      </label>
+
+      <div id="categories"></div>
+
+      <div id="products"></div>
+    </section>
+
+    <aside>
+      <h2>Корзина</h2>
+      <div id="cart-empty">Корзина пуста</div>
+      <ul id="cart-items"></ul>
+      <p id="cart-total"></p>
+
+      <form id="order-form">
+        <h3>Оформление заказа</h3>
+        <label>
+          Имя
+          <input type="text" id="customer-name" required>
+        </label>
+        <label>
+          Телефон
+          <input type="tel" id="customer-phone" required>
+        </label>
+        <label>
+          Комментарий
+          <textarea id="customer-comment" rows="3"></textarea>
+        </label>
+        <button type="submit" id="submit-order" disabled>Оформить заказ</button>
+      </form>
+
+      <p id="order-message"></p>
+    </aside>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

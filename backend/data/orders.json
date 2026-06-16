@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "createdAt": "2026-06-16T09:41:52.475Z",
+    "customerName": "????",
+    "phone": "+79990001122",
+    "comment": "",
+    "items": [
+      {
+        "productId": 29,
+        "name": "Эспрессо",
+        "volume": "30 мл",
+        "price": 150,
+        "quantity": 2,
+        "subtotal": 300
+      }
+    ],
+    "total": 300,
+    "status": "new"
+  },
+  {
+    "id": 2,
+    "createdAt": "2026-06-16T09:55:19.000Z",
+    "customerName": "вфывфыв",
+    "phone": "1231231",
+    "comment": "вваыа",
+    "items": [
+      {
+        "productId": 3,
+        "name": "Сенча",
+        "volume": "200 мл",
+        "price": 110,
+        "quantity": 1,
+        "subtotal": 110
+      },
+      {
+        "productId": 62,
+        "name": "Топпинг в ассортименте",
+        "volume": "30 г",
+        "price": 65,
+        "quantity": 3,
+        "subtotal": 195
+      },
+      {
+        "productId": 61,
+        "name": "Сироп в ассортименте",
+        "volume": "20 мл",
+        "price": 40,
+        "quantity": 1,
+        "subtotal": 40
+      }
+    ],
+    "total": 345,
+    "status": "new"
+  }
+]
