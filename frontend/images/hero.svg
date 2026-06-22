@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Dessertoria cafe">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ddf7fd"/>
+      <stop offset="100%" stop-color="#0585a2"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e8f8fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="650" cy="120" r="80" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="120" cy="480" r="120" fill="rgba(255,255,255,0.1)"/>
+  <ellipse cx="400" cy="500" rx="220" ry="28" fill="rgba(0,97,114,0.15)"/>
+  <path d="M290 180h220c22 0 40 18 40 40v180c0 44-36 80-80 80H330c-44 0-80-36-80-80V220c0-22 18-40 40-40z" fill="url(#cup)"/>
+  <path d="M510 250h36c33 0 60 27 60 60 0 28-19 52-45 58l-15 4V250z" fill="#ffffff" opacity="0.9"/>
+  <ellipse cx="400" cy="190" rx="110" ry="18" fill="#3abcee" opacity="0.35"/>
+  <circle cx="360" cy="300" r="18" fill="#f2c94c"/>
+  <circle cx="420" cy="280" r="14" fill="#ff8fab"/>
+  <circle cx="390" cy="340" r="12" fill="#95e1a3"/>
+  <path d="M320 420 Q400 380 480 420" fill="none" stroke="#0585a2" stroke-width="8" stroke-linecap="round"/>
+</svg>

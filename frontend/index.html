@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дессертория — меню | ЛетоЛето</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="notify-bar">
+    Аквапарк: с 10:00 до 21:30 · Дессертория: с 10:00 до 22:00
+  </div>
+
+  <header class="header">
+    <div class="header__inner container">
+      <a class="logo" href="https://leto-leto.com/aquapark" target="_blank" rel="noopener">
+        <img class="logo__icon" src="https://avatars.mds.yandex.net/get-altay/12838938/2a0000019233517356fedc8636d33d87254f/S" alt="ЛетоЛето логотип">
+        <span class="logo__text">
+          <strong>ЛетоЛето</strong>
+          <small>АКВАПАРК</small>
+        </span>
+      </a>
+
+      <nav class="header__nav" aria-label="Навигация">
+        <a href="https://leto-leto.com/aquapark/restoran-kafe" target="_blank" rel="noopener">Кафе</a>
+        <a class="header__nav-active" href="#">Меню</a>
+      </nav>
+
+      <button type="button" class="cart-toggle" id="cart-toggle" aria-label="Открыть корзину">
+        <svg width="24" height="22" viewBox="0 0 26 22" fill="none" aria-hidden="true">
+          <path d="M1 1h3.5l2.2 11.2a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L22 5H6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="10" cy="19" r="1.6" fill="currentColor"/>
+          <circle cx="18" cy="19" r="1.6" fill="currentColor"/>
+        </svg>
+        <span class="cart-toggle__badge" id="cart-badge" hidden>0</span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero__inner container">
+      <nav class="breadcrumbs" aria-label="Хлебные крошки">
+        <a href="https://leto-leto.com/aquapark" target="_blank" rel="noopener">Главная</a>
+        <span aria-hidden="true">›</span>
+        <a href="https://leto-leto.com/aquapark/restoran-kafe" target="_blank" rel="noopener">Кафе</a>
+        <span aria-hidden="true">›</span>
+        <span>Дессертория</span>
+      </nav>
+
+      <div class="hero__content">
+        <div class="hero__text">
+          <p class="hero__label">Кафе аквапарка</p>
+          <h1>«Дессертория»</h1>
+          <p class="hero__desc">
+            Уютное место после водных процедур: свежесваренный кофе, выпечка собственного
+            производства и авторские десерты от шеф-кондитера.
+          </p>
+          <p class="hero__check">Средний чек: <strong>440 ₽</strong></p>
+        </div>
+        <div class="hero__image">
+          <img
+            src="images/hero.jpg"
+            alt="Кафе «Дессертория»"
+            loading="eager"
+          >
+        </div>
+      </div>
+    </div>
+
+    <svg class="hero__wave" viewBox="0 0 1440 85" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,40 C240,90 480,0 720,40 C960,80 1200,10 1440,45 L1440,85 L0,85 Z" fill="var(--saturated-bg)"/>
+    </svg>
+  </section>
+
+  <main class="main">
+    <div class="main__inner container">
+    <section class="catalog">
+      <div class="catalog__toolbar">
+        <div class="search">
+          <svg class="search__icon" width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
+            <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.8" fill="none"/>
+            <path d="M13 13l3 3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+          <input type="search" id="search" placeholder="Поиск по меню..." autocomplete="off">
+        </div>
+        <p class="catalog__count" id="products-count"></p>
+      </div>
+
+      <div class="categories" id="categories" role="tablist" aria-label="Категории меню"></div>
+
+      <div class="products" id="products"></div>
+    </section>
+
+    <aside class="cart-panel" id="cart-panel">
+      <div class="cart-panel__header">
+        <h2>Корзина</h2>
+        <button type="button" class="cart-panel__close" id="cart-close" aria-label="Закрыть корзину">×</button>
+      </div>
+
+      <div class="cart-panel__body">
+        <div class="cart-empty" id="cart-empty">
+          <div class="cart-empty__icon" aria-hidden="true">🛒</div>
+          <p>Корзина пуста</p>
+          <span>Выберите напитки и десерты из меню</span>
+        </div>
+
+        <ul class="cart-items" id="cart-items"></ul>
+
+        <div class="cart-summary" id="cart-summary" hidden>
+          <div class="cart-summary__row">
+            <span>Итого</span>
+            <strong id="cart-total"></strong>
+          </div>
+        </div>
+
+        <form class="order-form" id="order-form">
+          <h3>Оформление заказа</h3>
+          <label class="field">
+            <span>Имя</span>
+            <input type="text" id="customer-name" required placeholder="Как к вам обращаться">
+          </label>
+          <label class="field">
+            <span>Телефон</span>
+            <input type="tel" id="customer-phone" required placeholder="+7 (___) ___-__-__">
+          </label>
+          <label class="field">
+            <span>Комментарий</span>
+            <textarea id="customer-comment" rows="3" placeholder="Пожелания к заказу"></textarea>
+          </label>
+          <button type="submit" class="btn btn--primary btn--full" id="submit-order" disabled>
+            Оформить заказ
+          </button>
+        </form>
+
+        <p class="order-message" id="order-message" role="status"></p>
+      </div>
+    </aside>
+    </div>
+  </main>
+
+  <div class="overlay" id="overlay" hidden></div>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <strong>ЛетоЛето</strong>
+        <span>Термальный курорт · Тюмень</span>
+      </div>
+      <div class="footer__contacts">
+        <a href="tel:+73452565500">+7 (3452) 565-500</a>
+        <a href="mailto:call-center@leto-leto.com">call-center@leto-leto.com</a>
+      </div>
+    </div>
+    <svg class="footer__wave" viewBox="0 0 1440 40" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,20 C360,40 720,0 1080,20 C1260,30 1380,10 1440,15 L1440,0 L0,0 Z" fill="var(--primary-ocean)"/>
+    </svg>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

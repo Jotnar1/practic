@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "createdAt": "2026-06-16T09:41:52.475Z",
+    "customerName": "????",
+    "phone": "+79990001122",
+    "comment": "",
+    "items": [
+      {
+        "productId": 29,
+        "name": "Эспрессо",
+        "volume": "30 мл",
+        "price": 150,
+        "quantity": 2,
+        "subtotal": 300
+      }
+    ],
+    "total": 300,
+    "status": "new"
+  },
+  {
+    "id": 2,
+    "createdAt": "2026-06-16T09:55:19.000Z",
+    "customerName": "вфывфыв",
+    "phone": "1231231",
+    "comment": "вваыа",
+    "items": [
+      {
+        "productId": 3,
+        "name": "Сенча",
+        "volume": "200 мл",
+        "price": 110,
+        "quantity": 1,
+        "subtotal": 110
+      },
+      {
+        "productId": 62,
+        "name": "Топпинг в ассортименте",
+        "volume": "30 г",
+        "price": 65,
+        "quantity": 3,
+        "subtotal": 195
+      },
+      {
+        "productId": 61,
+        "name": "Сироп в ассортименте",
+        "volume": "20 мл",
+        "price": 40,
+        "quantity": 1,
+        "subtotal": 40
+      }
+    ],
+    "total": 345,
+    "status": "new"
+  },
+  {
+    "id": 3,
+    "createdAt": "2026-06-16T10:20:39.123Z",
+    "customerName": "вфывфыв",
+    "phone": "1231231",
+    "comment": "а",
+    "items": [
+      {
+        "productId": 24,
+        "name": "Крушовице светлое ж/б безалкогольное",
+        "volume": "430 мл",
+        "price": 300,
+        "quantity": 1,
+        "subtotal": 300
+      },
+      {
+        "productId": 21,
+        "name": "Добрый газ. вода (апельсин/лимон-лайм/кола)",
+        "volume": "500 мл",
+        "price": 200,
+        "quantity": 5,
+        "subtotal": 1000
+      },
+      {
+        "productId": 22,
+        "name": "Крушовице светлое ж/б",
+        "volume": "430 мл",
+        "price": 330,
+        "quantity": 1,
+        "subtotal": 330
+      },
+      {
+        "productId": 20,
+        "name": "Бонаква газ./негаз.",
+        "volume": "500 мл",
+        "price": 140,
+        "quantity": 1,
+        "subtotal": 140
+      },
+      {
+        "productId": 19,
+        "name": "Сок в ассортименте",
+        "volume": "300 мл",
+        "price": 200,
+        "quantity": 1,
+        "subtotal": 200
+      }
+    ],
+    "total": 1970,
+    "status": "new"
+  },
+  {
+    "id": 4,
+    "createdAt": "2026-06-22T20:33:07.620Z",
+    "customerName": "укцуаа",
+    "phone": "131231",
+    "comment": "тест тест",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Ассам",
+        "volume": "200 мл",
+        "price": 110,
+        "quantity": 1,
+        "subtotal": 110
+      },
+      {
+        "productId": 2,
+        "name": "Ассам",
+        "volume": "400 мл",
+        "price": 160,
+        "quantity": 1,
+        "subtotal": 160
+      },
+      {
+        "productId": 4,
+        "name": "Сенча",
+        "volume": "400 мл",
+        "price": 160,
+        "quantity": 2,
+        "subtotal": 320
+      },
+      {
+        "productId": 6,
+        "name": "Фруктовый пунш",
+        "volume": "400 мл",
+        "price": 160,
+        "quantity": 1,
+        "subtotal": 160
+      },
+      {
+        "productId": 5,
+        "name": "Фруктовый пунш",
+        "volume": "200 мл",
+        "price": 110,
+        "quantity": 1,
+        "subtotal": 110
+      },
+      {
+        "productId": 3,
+        "name": "Сенча",
+        "volume": "200 мл",
+        "price": 110,
+        "quantity": 1,
+        "subtotal": 110
+      }
+    ],
+    "total": 970,
+    "status": "new"
+  },
+  {
+    "id": 5,
+    "createdAt": "2026-06-22T20:45:05.525Z",
+    "customerName": "Test",
+    "phone": "123",
+    "comment": "",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Ассам",
+        "volume": "200 мл",
+        "price": 110,
+        "quantity": 1,
+        "subtotal": 110
+      }
+    ],
+    "total": 110,
+    "status": "new"
+  },
+  {
+    "id": 6,
+    "createdAt": "2026-06-22T20:54:42.833Z",
+    "customerName": "123",
+    "phone": "123",
+    "comment": "123",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Ассам",
+        "volume": "200 мл",
+        "price": 110,
+        "quantity": 1,
+        "subtotal": 110
+      },
+      {
+        "productId": 2,
+        "name": "Ассам",
+        "volume": "400 мл",
+        "price": 160,
+        "quantity": 1,
+        "subtotal": 160
+      }
+    ],
+    "total": 270,
+    "status": "new"
+  }
+]

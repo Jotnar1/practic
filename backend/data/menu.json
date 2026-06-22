@@ -1,0 +1,90 @@
+{
+  "restaurant": "Дессертория",
+  "categories": [
+    { "id": "tea", "name": "Чай" },
+    { "id": "cold-tea", "name": "Холодный чай" },
+    { "id": "bubble-tea", "name": "Бабл-ти" },
+    { "id": "drinks", "name": "Прохладительные напитки" },
+    { "id": "signature-coffee", "name": "Авторский кофе" },
+    { "id": "coffee", "name": "Кофе" },
+    { "id": "cold-coffee", "name": "Холодный кофе" },
+    { "id": "milk", "name": "Молоко" },
+    { "id": "milkshakes", "name": "Молочные коктейли" },
+    { "id": "desserts", "name": "Десерты" },
+    { "id": "addons", "name": "Добавки" }
+  ],
+  "products": [
+    { "id": 1, "categoryId": "tea", "name": "Ассам", "volume": "200 мл", "price": 110 },
+    { "id": 2, "categoryId": "tea", "name": "Ассам", "volume": "400 мл", "price": 160 },
+    { "id": 3, "categoryId": "tea", "name": "Сенча", "volume": "200 мл", "price": 110 },
+    { "id": 4, "categoryId": "tea", "name": "Сенча", "volume": "400 мл", "price": 160 },
+    { "id": 5, "categoryId": "tea", "name": "Фруктовый пунш", "volume": "200 мл", "price": 110 },
+    { "id": 6, "categoryId": "tea", "name": "Фруктовый пунш", "volume": "400 мл", "price": 160 },
+    { "id": 7, "categoryId": "tea", "name": "Альпийские травы", "volume": "200 мл", "price": 110 },
+    { "id": 8, "categoryId": "tea", "name": "Альпийские травы", "volume": "400 мл", "price": 160 },
+
+    { "id": 9, "categoryId": "cold-tea", "name": "Манго-малина", "volume": "300 мл", "price": 250 },
+    { "id": 10, "categoryId": "cold-tea", "name": "Маракуйя-анчан", "volume": "300 мл", "price": 250 },
+
+    { "id": 11, "categoryId": "bubble-tea", "name": "Жемчужина Дессертории", "volume": "300 мл", "price": 430 },
+    { "id": 12, "categoryId": "bubble-tea", "name": "Карамельный взрыв", "volume": "300 мл", "price": 430 },
+    { "id": 13, "categoryId": "bubble-tea", "name": "Бабл-ти кофе", "volume": "300 мл", "price": 430 },
+    { "id": 14, "categoryId": "bubble-tea", "name": "Розовый фламинго", "volume": "300 мл", "price": 400 },
+    { "id": 15, "categoryId": "bubble-tea", "name": "Мадагаскар", "volume": "300 мл", "price": 400 },
+    { "id": 16, "categoryId": "bubble-tea", "name": "Черничный личи", "volume": "300 мл", "price": 400 },
+    { "id": 17, "categoryId": "bubble-tea", "name": "Клубника-бузина", "volume": "300 мл", "price": 400 },
+    { "id": 18, "categoryId": "bubble-tea", "name": "Лаймовая дыня", "volume": "300 мл", "price": 400 },
+
+    { "id": 19, "categoryId": "drinks", "name": "Сок в ассортименте", "volume": "300 мл", "price": 200 },
+    { "id": 20, "categoryId": "drinks", "name": "Бонаква газ./негаз.", "volume": "500 мл", "price": 140 },
+    { "id": 21, "categoryId": "drinks", "name": "Добрый газ. вода (апельсин/лимон-лайм/кола)", "volume": "500 мл", "price": 200 },
+    { "id": 22, "categoryId": "drinks", "name": "Крушовице светлое ж/б", "volume": "430 мл", "price": 330 },
+    { "id": 23, "categoryId": "drinks", "name": "Мейзон Арне Премиум Лагер светлое ж/б", "volume": "430 мл", "price": 330 },
+    { "id": 24, "categoryId": "drinks", "name": "Крушовице светлое ж/б безалкогольное", "volume": "430 мл", "price": 300 },
+
+    { "id": 25, "categoryId": "signature-coffee", "name": "Ягодный латте", "volume": "350 мл", "price": 260 },
+    { "id": 26, "categoryId": "signature-coffee", "name": "Сгущенное латте", "volume": "350 мл", "price": 300 },
+    { "id": 27, "categoryId": "signature-coffee", "name": "Раф халва", "volume": "350 мл", "price": 330 },
+    { "id": 28, "categoryId": "signature-coffee", "name": "Раф ванильная тыква", "volume": "350 мл", "price": 330 },
+
+    { "id": 29, "categoryId": "coffee", "name": "Эспрессо", "volume": "30 мл", "price": 150 },
+    { "id": 30, "categoryId": "coffee", "name": "Двойной эспрессо", "volume": "60 мл", "price": 180 },
+    { "id": 31, "categoryId": "coffee", "name": "Американо", "volume": "200 мл", "price": 160 },
+    { "id": 32, "categoryId": "coffee", "name": "Глясе", "volume": "170 мл", "price": 250 },
+    { "id": 33, "categoryId": "coffee", "name": "Капучино", "volume": "220 мл", "price": 180 },
+    { "id": 34, "categoryId": "coffee", "name": "Двойной капучино", "volume": "320 мл", "price": 230 },
+    { "id": 35, "categoryId": "coffee", "name": "Латте", "volume": "320 мл", "price": 210 },
+    { "id": 36, "categoryId": "coffee", "name": "Флэт уайт", "volume": "220 мл", "price": 220 },
+    { "id": 37, "categoryId": "coffee", "name": "Моккачино", "volume": "330 мл", "price": 350 },
+    { "id": 38, "categoryId": "coffee", "name": "Раф", "volume": "320 мл", "price": 340 },
+
+    { "id": 39, "categoryId": "cold-coffee", "name": "Айс крим", "volume": "350 мл", "price": 350 },
+    { "id": 40, "categoryId": "cold-coffee", "name": "Айс латте", "volume": "300 мл", "price": 250 },
+    { "id": 41, "categoryId": "cold-coffee", "name": "Веселый шмель", "volume": "330 мл", "price": 320 },
+
+    { "id": 42, "categoryId": "milk", "name": "Безлактозное молоко", "volume": "200 мл", "price": 110 },
+    { "id": 43, "categoryId": "milk", "name": "Безлактозное молоко", "volume": "250 мл", "price": 130 },
+    { "id": 44, "categoryId": "milk", "name": "Кокосовое молоко", "volume": "200 мл", "price": 110 },
+    { "id": 45, "categoryId": "milk", "name": "Кокосовое молоко", "volume": "250 мл", "price": 130 },
+    { "id": 46, "categoryId": "milk", "name": "Миндальное молоко", "volume": "200 мл", "price": 110 },
+    { "id": 47, "categoryId": "milk", "name": "Миндальное молоко", "volume": "250 мл", "price": 130 },
+
+    { "id": 48, "categoryId": "milkshakes", "name": "Молочный коктейль банан", "volume": "270 мл", "price": 250 },
+    { "id": 49, "categoryId": "milkshakes", "name": "Молочный коктейль ваниль", "volume": "270 мл", "price": 250 },
+    { "id": 50, "categoryId": "milkshakes", "name": "Молочный коктейль карамель", "volume": "270 мл", "price": 250 },
+    { "id": 51, "categoryId": "milkshakes", "name": "Молочный коктейль клубника", "volume": "270 мл", "price": 250 },
+    { "id": 52, "categoryId": "milkshakes", "name": "Молочный коктейль шоколад", "volume": "270 мл", "price": 250 },
+
+    { "id": 53, "categoryId": "desserts", "name": "Мягкое мороженое", "volume": "100 г", "price": 115 },
+
+    { "id": 54, "categoryId": "addons", "name": "Корица молотая", "volume": "1 г", "price": 25 },
+    { "id": 55, "categoryId": "addons", "name": "Имбирь", "volume": "20 г", "price": 60 },
+    { "id": 56, "categoryId": "addons", "name": "Лимон", "volume": "15 г", "price": 35 },
+    { "id": 57, "categoryId": "addons", "name": "Маршмеллоу", "volume": "5 г", "price": 35 },
+    { "id": 58, "categoryId": "addons", "name": "Взбитые сливки", "volume": "25 г", "price": 90 },
+    { "id": 59, "categoryId": "addons", "name": "Молоко", "volume": "50 мл", "price": 50 },
+    { "id": 60, "categoryId": "addons", "name": "Сливки 10%", "volume": "50 мл", "price": 60 },
+    { "id": 61, "categoryId": "addons", "name": "Сироп в ассортименте", "volume": "20 мл", "price": 40 },
+    { "id": 62, "categoryId": "addons", "name": "Топпинг в ассортименте", "volume": "30 г", "price": 65 }
+  ]
+}
